@@ -43,7 +43,7 @@ public class Graphing extends JFrame {
         String xAxisLabel = "Items in Array";
         String yAxisLabel = "Time in Seconds";
 
-        XYDataset dataset = createDataset();
+        XYDataset dataset = createDataset2();
 
         JFreeChart chart = ChartFactory.createXYLineChart(chartTitle, xAxisLabel, yAxisLabel, dataset);
 
@@ -171,7 +171,7 @@ public class Graphing extends JFrame {
 
         XYSeriesCollection dataset = new XYSeriesCollection();
 
-        XYSeries series3 = new XYSeries("Selection Sort");
+//        XYSeries series3 = new XYSeries("Selection Sort");
         XYSeries series4 = new XYSeries("Shell Sort");
         XYSeries series5 = new XYSeries("Quick Sort");
         XYSeries series6 = new XYSeries("Merge Sort");
@@ -179,9 +179,9 @@ public class Graphing extends JFrame {
         int[] size = {100, 500, 1000, 2000, 5000, 10000, 20000, 75000, 150000};
         double[] selectS = {1.454299985198304E-4 ,4.8411999887321144E-4, 2.4999999877763914E-4, 9.626800019759685E-4 ,0.005609409998578485, 0.02126517999859061, 0.08850158500281395, 1.1275677400000859, 4.462000809998426};
 
-        for(int i = 0; i < 9; i++){
-            series3.add(size[i], selectS[i]);
-        }
+//        for(int i = 0; i < 9; i++){
+//            series3.add(size[i], selectS[i]);
+//        }
 
         double[] shellS = {3.6910001654177904E-5,8.047000010265037E-5,1.270599997951649E-4 ,1.9940999773098155E-4,  4.49889998708386E-4, 9.11389994143974E-4, 0.002873165003256872,  0.009292040001309943, 0.02268674499791814};
 
@@ -201,7 +201,7 @@ public class Graphing extends JFrame {
             series6.add(size[i], mergeS[i]);
         }
 
-        dataset.addSeries(series3);
+//        dataset.addSeries(series3);
         dataset.addSeries(series4);
         dataset.addSeries(series5);
         dataset.addSeries(series6);
