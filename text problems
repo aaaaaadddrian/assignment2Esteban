@@ -77,4 +77,6 @@
     The top 3 algorithms all had really similar runtimes.
     The asymptotic time complexity did not line up completely with the actual results we got.
 
-
+12) Summary of K-Sorted Results:
+    The sorting algorithms worked a lot faster with K-Sorted arrays.
+    The algorithms had the same rating as before except, all of them worked faster.
