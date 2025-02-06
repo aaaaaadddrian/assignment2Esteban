@@ -1,0 +1,77 @@
+InsertionSort
+******************************************************
+
+Sorted 100 elements in 1.1207000352442265E-4 seconds.
+Sorted 500 elements in 2.3236999986693264E-4 seconds.
+Sorted 1000 elements in 8.051350130699575E-4 seconds.
+Sorted 2000 elements in 0.0028446000011172145 seconds.
+Sorted 5000 elements in 0.016855505004059523 seconds.
+Sorted 10000 elements in 0.06515735501307063 seconds.
+Sorted 20000 elements in 0.25810590499313546 seconds.
+Sorted 75000 elements in 3.5814913050096946 seconds.
+Sorted 150000 elements in 14.734222754999063 seconds.
+
+BubbleSort
+******************************************************
+
+Sorted 100 elements in 1.1539499391801655E-4 seconds.
+Sorted 500 elements in 3.258699900470674E-4 seconds.
+Sorted 1000 elements in 3.760799998417497E-4 seconds.
+Sorted 2000 elements in 8.897049992810935E-4 seconds.
+Sorted 5000 elements in 0.005076835001818836 seconds.
+Sorted 10000 elements in 0.019654394988901914 seconds.
+Sorted 20000 elements in 0.06526565999956802 seconds.
+Sorted 75000 elements in 0.8001786600158084 seconds.
+Sorted 150000 elements in 3.0478092350182124 seconds.
+
+SelectionSort
+******************************************************
+
+Sorted 100 elements in 1.0062998626381159E-4 seconds.
+Sorted 500 elements in 2.6870499714277686E-4 seconds.
+Sorted 1000 elements in 2.7076501864939926E-4 seconds.
+Sorted 2000 elements in 8.398749923799187E-4 seconds.
+Sorted 5000 elements in 0.004974689992377534 seconds.
+Sorted 10000 elements in 0.01956998500972986 seconds.
+Sorted 20000 elements in 0.07736854000831954 seconds.
+Sorted 75000 elements in 1.0809839800000192 seconds.
+Sorted 150000 elements in 4.303432180010714 seconds.
+
+ShellSort
+******************************************************
+
+Sorted 100 elements in 3.923503099940717E-5 seconds.
+Sorted 500 elements in 6.358500104397535E-5 seconds.
+Sorted 1000 elements in 8.311500423587858E-5 seconds.
+Sorted 2000 elements in 1.0354501428082586E-4 seconds.
+Sorted 5000 elements in 2.2464499343186617E-4 seconds.
+Sorted 10000 elements in 4.6738997916691006E-4 seconds.
+Sorted 20000 elements in 9.848850022535771E-4 seconds.
+Sorted 75000 elements in 0.0035891050123609603 seconds.
+Sorted 150000 elements in 0.00743195999530144 seconds.
+
+QuickSort
+******************************************************
+
+Sorted 100 elements in 4.61999443359673E-6 seconds.
+Sorted 500 elements in 1.2340006651356817E-5 seconds.
+Sorted 1000 elements in 1.0284996824339032E-5 seconds.
+Sorted 2000 elements in 1.3275002129375934E-5 seconds.
+Sorted 5000 elements in 1.1985015589743853E-5 seconds.
+Sorted 10000 elements in 1.3719999697059392E-5 seconds.
+Sorted 20000 elements in 2.769001293927431E-5 seconds.
+Sorted 75000 elements in 9.040000732056797E-5 seconds.
+Sorted 150000 elements in 1.675100007560104E-4 seconds.
+
+MergeSort
+******************************************************
+
+Sorted 100 elements in 5.141000146977603E-5 seconds.
+Sorted 500 elements in 4.6015006955713036E-5 seconds.
+Sorted 1000 elements in 8.783501107245684E-5 seconds.
+Sorted 2000 elements in 6.6390999709256E-4 seconds.
+Sorted 5000 elements in 6.806049845181405E-4 seconds.
+Sorted 10000 elements in 4.6742999693378807E-4 seconds.
+Sorted 20000 elements in 0.0010038250009529292 seconds.
+Sorted 75000 elements in 0.004194384993752465 seconds.
+Sorted 150000 elements in 0.007718550000572577 seconds.
