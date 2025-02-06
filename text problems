@@ -1,0 +1,80 @@
+1) MergeSort Algorithm with A = [1,16,25,31] and B =[-3,0,16,27], C = new [8]
+    First, we compare A[0]= 1 with B[0] = -3. Since -3 < 1 we add that to our final sorted array:
+    C = [-3, 0,0,0,0,0,0,0,0]
+    Next we compare A[0] = 1 with B[1] = 0, 0 < 1 so we add it to C:
+    C = [-3, 0, 0,0,0,0,0,0]
+    Next we compare A[0] = 1 with B[2] = 16, 1 < 16 so we add it to C:
+    C = [-3, 0, 1, 0,0,0,0,0]
+    Next we compare A[1] = 16 with B[2] = 16, since 16 == 16 we add 16 to C:
+    C = [-3, 0, 1, 16, 0,0,0,0]
+    Next we compare A[2] = 25 with B[2] = 16, 16 < 25 so we add 16:
+    C = [-3, 0, 1, 16, 16, 0,0,0]
+    Next we compare A[2] = 25 with B[3] = 27, 25 < 27 so we add 25 to C:
+    C = [-3, 0, 1, 16, 16, 25, 0,0]
+    Next we compare A[3] = 31 with B[3] = 27, 27 < 31 so we add 27 to C:
+    C = [-3, 0, 1, 16, 16, 25, 27, 0]
+    Since we have no more values in B to check we add the rest of A to C:
+    C = [-3, 0, 1, 16, 16, 25, 27, 31]
+
+2) Now we Insertion Sort  [-1, -5, 67, -10, 21, 8, 4, 1]
+    First, we look at our first value, -1, and declare it sorted.
+    Now we look at our next value, -5, and compare it to our sorted list. -5 < -1 so we swap -5 and -1.
+    [-5, -1, 67, -10, 21, 8, 4, 1]
+    We continue in this manner, making swaps if the jth element is smaller than the (j-1)th element as below:
+    [-5, -1, 67, -10, 21, 8, 4, 1] 0 swaps
+    [-10, -5, -1, 67, 21, 8, 4, 1] 3 swaps
+    [-10, -5, -1, 21, 67, 8, 4, 1] 1 swaps
+    [-10, -5, -1, 8, 21, 67, 4, 1] 2 swaps
+    [-10, -5, -1, 4, 8, 21, 67, 1] 3 swaps
+    [-10, -5, -1, 1, 4, 8, 21, 67] 4 swaps
+
+3) Using Quicksort to sort [-5, 42, 6, 19, 11, 25, 26, -3]
+    First we choose a pivot, in this case we will take the median which is 19.
+    Now we go through our array making swaps so everything to the left of our pivot is <19 and everything to the right >19
+    [-5, 42, 6, 19, 11, 25, 26, -3]
+    [-5, -3, 6, 19, 11, 25, 26, 42]
+    [-5, -3, 6, 11, 19, 25, 26, 42]
+    Now everything to the left of the pivot is <19 and everything to the right is >19.
+    Now we recursively sort the values to the left of our pivot [-5, -3, 6, 11] and [25, 26, 42]
+    For the first one we will choose P = -3 and for the second P = 26
+    Notice for the first one our array is already in order so we call quicksort again, same for the second array
+    Thus we are calling quicksort on [-5] and [6, 11] and [25] and [42]
+    The arrays of single elements are already sorted and the array of two elements is also sorted.
+    Thus we are done sorting.
+
+4) Now we use Shellsort to sort [15, 14, -6, 10, 1, 15, -6, 0]. We will sort with gaps of 3, 2, and 1.
+    Our first gap is 3 so we will check every element with the element 3 spaces to the right of it and swap if (j + 3) < j
+    [10, 14, -6, 15, 1, 15, -6, 0]  10 < 15
+    [10, 1, -6, 15, 14, 15, -6, 0] 1 < 14
+    [10, 1, -6, 15, 14, 15, -6, 0] -6 < 15
+    [10, 1, -6, -6, 14, 15, 15, 0] -6 < 15
+    [10, 1, -6, -6, 0, 15, 15, 14] 0 < 14
+    Now we do it again with gaps of 2.
+    [-6, 1, 10, -6, 0, 15, 15, 14] -6 < 10
+    [-6, -6, 10, 1, 0, 15, 15, 14] -6 < 1
+    [-6, -6, 0, 1, 10, 15, 15, 14] 0 < 10
+    [-6, -6, 0, 1, 10, 15, 15, 14] 1 < 15
+    [-6, -6, 0, 1, 10, 15, 15, 14] 10 < 15
+    [-6, -6, 0, 1, 10, 14, 15, 15] 14 < 15
+    Now we do it again with gaps of 1, which is just insertion sort.
+    [-6, -6, 0, 1, 10, 14, 15, 15]
+    We are now sorted.
+
+5) Ranking:
+    1. QuickSort O(nlogn)
+    2. MergeSort O(nlogn)
+    3. ShellSort O(nlogn)
+    4. InsertSort O(n^2)
+    5. BubbleSort O(n^2)
+    6. SelectionSort O(n^2)
+
+    I chose this ordering based mostly off of the average time complexity of each sorting algorithm.
+    For the ones with the same time complexity I looked at the best case time complexity to judge it.
+    If they had the same best case time complexity then I chose my favorite.
+
+10) Summary of Results:
+    SelectionSort ended up beating Bubble and Insert by a lot which I did not expect.
+    The top 3 algorithms all had really similar runtimes.
+    The asymptotic time complexity did not line up completely with the actual results we got.
+
+
