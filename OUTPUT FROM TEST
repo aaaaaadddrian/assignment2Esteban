@@ -1,0 +1,73 @@
+Insert Test: 
+------------------------------------------
+Sorted 100 elements in 1.9759499991778284E-4 seconds
+Sorted 500 elements in 5.743949979660102E-4 seconds
+Sorted 1000 elements in 0.002324325000518002 seconds
+Sorted 2000 elements in 0.007966419997683261 seconds
+Sorted 5000 elements in 0.05128352000319865 seconds
+Sorted 10000 elements in 0.2158895599975949 seconds
+Sorted 20000 elements in 0.6535573450019001 seconds
+Sorted 75000 elements in 10.24898306500254 seconds
+Sorted 150000 elements in 41.136799014998545 seconds
+
+Bubble Test: 
+------------------------------------------
+Sorted 100 elements in 1.917850022437051E-4 seconds
+Sorted 500 elements in 3.8706500199623404E-4 seconds
+Sorted 1000 elements in 7.959299968206323E-4 seconds
+Sorted 2000 elements in 0.002345480002986733 seconds
+Sorted 5000 elements in 0.012583170000289102 seconds
+Sorted 10000 elements in 0.0744951199987554 seconds
+Sorted 20000 elements in 0.4554539749995456 seconds
+Sorted 75000 elements in 7.036538640005165 seconds
+Sorted 150000 elements in 28.650306565001664 seconds
+
+Selection Test: 
+------------------------------------------
+Sorted 100 elements in 1.454299985198304E-4 seconds
+Sorted 500 elements in 4.8411999887321144E-4 seconds
+Sorted 1000 elements in 2.4999999877763914E-4 seconds
+Sorted 2000 elements in 9.626800019759685E-4 seconds
+Sorted 5000 elements in 0.005609409998578485 seconds
+Sorted 10000 elements in 0.02126517999859061 seconds
+Sorted 20000 elements in 0.08850158500281395 seconds
+Sorted 75000 elements in 1.1275677400000859 seconds
+Sorted 150000 elements in 4.462000809998426 seconds
+
+Shell Test: 
+------------------------------------------
+Sorted 100 elements in 3.6910001654177904E-5 seconds
+Sorted 500 elements in 8.047000010265037E-5 seconds
+Sorted 1000 elements in 1.270599997951649E-4 seconds
+Sorted 2000 elements in 1.9940999773098155E-4 seconds
+Sorted 5000 elements in 4.49889998708386E-4 seconds
+Sorted 10000 elements in 9.11389994143974E-4 seconds
+Sorted 20000 elements in 0.002873165003256872 seconds
+Sorted 75000 elements in 0.009292040001309943 seconds
+Sorted 150000 elements in 0.02268674499791814 seconds
+
+Quick Test: 
+------------------------------------------
+Sorted 100 elements in 1.0829995153471827E-5 seconds
+Sorted 500 elements in 3.4274997597094624E-5 seconds
+Sorted 1000 elements in 2.263500209664926E-5 seconds
+Sorted 2000 elements in 4.263000300852582E-5 seconds
+Sorted 5000 elements in 8.550000056857243E-5 seconds
+Sorted 10000 elements in 1.9198999943910168E-4 seconds
+Sorted 20000 elements in 1.0849500395124779E-4 seconds
+Sorted 75000 elements in 5.520300008356571E-4 seconds
+Sorted 150000 elements in 0.001010739998309873 seconds
+
+Merge Test: 
+------------------------------------------
+Sorted 100 elements in 1.0614000202622265E-4 seconds
+Sorted 500 elements in 1.4334999868879095E-4 seconds
+Sorted 1000 elements in 2.5773499946808444E-4 seconds
+Sorted 2000 elements in 0.0016211349997320213 seconds
+Sorted 5000 elements in 4.461849996005185E-4 seconds
+Sorted 10000 elements in 7.895250004366971E-4 seconds
+Sorted 20000 elements in 0.0017032649950124324 seconds
+Sorted 75000 elements in 0.008113754999067168 seconds
+Sorted 150000 elements in 0.015970229999220466 seconds
+
+PHEW
